@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'dart:js';
 
 import 'package:crud_tp/db_helper.dart';
@@ -130,5 +131,14 @@ class HomeScreen extends StatelessWidget{
        child: Icon(Icons.add),
       ),
     );
+=======
+import 'package:flutter/material.dart';
+class HomeScreen extends StatelessWidget{
+  const HomeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context){
+    return const Scaffold();
+>>>>>>> 2516ce2bd3149c4d456d782ea0f1a58c08f51b30
   }
 }
